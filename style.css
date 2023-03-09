@@ -1,0 +1,116 @@
+* {
+    /* background-color: silver; */
+    padding: 0;
+    margin: 0;
+    /* color: whitesmoke; */
+}
+
+#navtab {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    background-color: silver;
+    padding: 2rem;
+    margin: 0;
+    font-size: x-large;
+    font-family: 'Age of Ultron', sans-serif;
+}
+
+#firstCard {
+    text-align: center;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    /* margin-top: 2rem; */
+    display: grid;
+    padding: 2rem;
+    background-color: silver;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin: 1rem auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#firstCard div {
+    grid-row: 2/3;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+#firstCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(228, 6, 6, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+#container {
+    padding: 5px 20px;
+    margin: 1rem 40%;
+}
+
+#secCard {
+    text-align: center;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    /* margin-top: 2rem; */
+    display: grid;
+    padding: 2rem;
+    background-color: silver;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin: 1rem auto;
+}
+
+#secCard div {
+    grid-row: 2/3;
+}
+
+#secCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(228, 6, 6, 0.2);
+}
+
+#thirdCard {
+    text-align: center;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    /* margin-top: 2rem; */
+    display: grid;
+    padding: 2rem;
+    background-color: silver;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin: 1rem auto;
+}
+
+#thirdCard div {
+    grid-row: 2/3;
+}
+
+#thirdCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(228, 6, 6, 0.2);
+}
+
+p {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    background-color: silver;
+    padding: 0;
+    margin: 0;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* #container {
+    padding: 4px 20px;
+    margin: 1rem 40%;
+} */
