@@ -1,0 +1,39 @@
+* {
+    text-align: center;
+    /* background-color: white; */
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#input {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border-color: aqua;
+}
+
+#output {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border-color: aqua;
+}
+
+#submit {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border-color: chocolate;
+}
+
+#navtab {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    background-color: silver;
+    padding: 2rem;
+    margin: 0;
+    font-size: x-large;
+    font-family: 'Age of Ultron', sans-serif;
+}
