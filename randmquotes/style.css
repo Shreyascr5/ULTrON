@@ -3,17 +3,16 @@
     padding-top: 0rem;
     text-align: center;
     /* background-color: white; */
-    color: black;
+    /* color: black; */
+}
+
+body {
+    background-color: black;
 }
 
 p {
-    color: black;
+    color: white;
     padding: 2rem;
-}
-
-h1 {
-    color: black;
-    /* padding: 2rem; */
 }
 
 #display {
@@ -44,7 +43,8 @@ h1 {
     display: flex;
     /* text-align: center; */
     justify-content: center;
-    background-color: silver;
+    background-color: rgb(3, 48, 66);
+    color: white;
     padding: 2rem;
     margin: 0;
     font-size: x-large;

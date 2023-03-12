@@ -8,15 +8,21 @@
     background-repeat: no-repeat; */
 }
 
+body {
+    background-color: black;
+    color: white;
+}
+
 #navbar {
     display: flex;
     /* text-align: center; */
     justify-content: center;
-    background-color: silver;
+    background-color: rgb(3, 48, 66);
     padding: 1rem;
     margin: 0rem;
     font-size: x-large;
     font-family: 'Age of Ultron', sans-serif;
+    color: white;
 }
 
 #container {

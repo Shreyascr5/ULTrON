@@ -5,11 +5,37 @@
     /* color: whitesmoke; */
 }
 
+body {
+    background-color: black;
+}
+
+#content {
+    color: white;
+    font-family: sans-serif;
+}
+
+#navbar {
+    padding: 3rem;
+    text-align: center;
+    background-color: rgb(3, 48, 66);
+}
+
+#navbar h1 {
+    color: white;
+    font-size: x-large;
+}
+
+#navbar a {
+    float: right;
+    color: white;
+}
+
 h3 {
+    background-color: rgb(3, 48, 66);
     display: flex;
     /* text-align: center; */
     justify-content: left;
-    background-color: silver;
+    /* background-color: silver; */
     padding: 2rem;
     margin: 0;
     font-size: x-large;

@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+body {
+    background-color: black;
+}
+
+nav p {
+    background-color: rgb(3, 48, 66);
+    float: left;
+    text-decoration: none;
+    /* text-align: center; */
+}
+
+nav {
+    background-color: rgb(3, 48, 66);
+    padding: 3rem;
+    color: white;
+}
+
+img {
+    width: 35px;
+    height: 40px;
+}
+
+#menuopt a {
+    padding: 14px 16px;
+    margin: auto;
+    color: silver;
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    /* text-decoration: none; */
+}
+
+.container img {
+    display: grid;
+    padding-top: 2rem;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin: 0rem auto;
+    width: 20%;
+    height: 20%;
+    /* box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.container img:hover {
+    opacity: 0.6;
+}
+
+.math {
+    text-decoration: none;
+    color: beige;
+    text-align: center;
+    font-size: larger;
+}
+
+.container p {
+    padding: 5px;
+    text-align: center;
+    color: white;
+}

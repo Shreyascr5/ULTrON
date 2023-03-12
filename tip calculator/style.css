@@ -3,13 +3,18 @@
     /* background-color: white; */
     margin: 0;
     padding: 0;
+    color: white;
+}
+
+body {
+    background-color: black;
 }
 
 #navbar {
     display: flex;
     /* text-align: center; */
     justify-content: center;
-    background-color: silver;
+    background-color: rgb(3, 48, 66);
     padding: 2rem;
     margin: 0;
     font-size: x-large;
