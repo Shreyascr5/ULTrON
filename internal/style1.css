@@ -9,7 +9,7 @@ body {
     background-color: black;
 }
 
-#content {
+.content {
     color: white;
     font-family: sans-serif;
 }
@@ -166,4 +166,26 @@ a {
 
 #fifthCard:hover {
     box-shadow: 0 8px 16px 0 rgba(228, 6, 6, 0.2);
+}
+
+
+/* media query */
+
+@media(max-width:670px) {
+    #firstCard {
+        display: flex;
+        justify-content: center;
+    }
+    #secCard {
+        display: flex;
+        justify-content: center;
+    }
+    #thirdCard {
+        display: flex;
+        justify-content: center;
+    }
+    #fourthCard {
+        display: flex;
+        justify-content: center;
+    }
 }
