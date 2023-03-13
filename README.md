@@ -1,2 +1,3 @@
 # ULTrON
-project yet to be finished
+Responsive website using HTML,CSS,JS 
+
